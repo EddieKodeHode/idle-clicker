@@ -1,0 +1,32 @@
+:root {
+    --main-color: #555;
+    --sec-color: #333;
+    --tert-color: #777;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--sec-color);
+}
+
+/* Header code */
+
+header {
+    display: flex;
+    background-color: var(--main-color);
+
+}
+
+/* Main code */
+
+main {
+    border: 1px solid red;
+
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--main-color);
+}
